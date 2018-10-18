@@ -1,0 +1,80 @@
+{
+  "type": "array",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "minItems": 1,
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "required": [
+      "directory",
+      "hash",
+      "height",
+      "id",
+      "image",
+      "change",
+      "owner",
+      "parent_id",
+      "rating",
+      "sample",
+      "sample_height",
+      "sample_width",
+      "score",
+      "tags",
+      "width"
+    ],
+    "properties": {
+      "directory": {
+        "type": "string",
+        "minLength": 1
+      },
+      "hash": {
+        "type": "string",
+        "minLength": 1
+      },
+      "height": {
+        "type": "number"
+      },
+      "id": {
+        "type": "number"
+      },
+      "image": {
+        "type": "string",
+        "minLength": 1
+      },
+      "change": {
+        "type": "number"
+      },
+      "owner": {
+        "type": "string",
+        "minLength": 1
+      },
+      "parent_id": {
+        "type": "number"
+      },
+      "rating": {
+        "type": "string",
+        "minLength": 1
+      },
+      "sample": {
+        "type": "boolean"
+      },
+      "sample_height": {
+        "type": "number"
+      },
+      "sample_width": {
+        "type": "number"
+      },
+      "score": {
+        "type": "number"
+      },
+      "tags": {
+        "type": "string",
+        "minLength": 1
+      },
+      "width": {
+        "type": "number"
+      }
+    }
+  }
+}
